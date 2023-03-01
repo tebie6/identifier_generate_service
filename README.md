@@ -1,14 +1,15 @@
 
 # 分布式ID生成服务
 
-### API：
-```aidl
+### API
+```
 获取单个ID：http://127.0.0.1:8911/get_id
 获取多个ID：http://127.0.0.1:8911/get_ids?c=100
 ```
 
-### 压测：
-```aidl
+### 压测
+##### 测试机器：M1芯片 8核 16G
+```
 Server Software:
 Server Hostname:        127.0.0.1
 Server Port:            8911
