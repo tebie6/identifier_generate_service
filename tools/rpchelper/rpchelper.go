@@ -2,9 +2,9 @@ package rpchelper
 
 import (
 	"github.com/gin-gonic/gin"
+	"github.com/tebie6/identifier_generate_service/tools/log"
 	"strconv"
 	"strings"
-	"xx_identifier_generate_service/tools/log"
 )
 
 // 获取字符串值

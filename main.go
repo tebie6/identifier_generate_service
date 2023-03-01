@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
+	"github.com/tebie6/identifier_generate_service/conf"
+	"github.com/tebie6/identifier_generate_service/models"
+	"github.com/tebie6/identifier_generate_service/rpc"
+	"github.com/tebie6/identifier_generate_service/tools/log"
+	"github.com/tebie6/identifier_generate_service/tools/logger"
+	"github.com/tebie6/identifier_generate_service/worker"
 	"os"
-	"xx_identifier_generate_service/conf"
-	"xx_identifier_generate_service/models"
-	"xx_identifier_generate_service/rpc"
-	"xx_identifier_generate_service/tools/log"
-	"xx_identifier_generate_service/tools/logger"
-	"xx_identifier_generate_service/worker"
 )
 
 func main() {

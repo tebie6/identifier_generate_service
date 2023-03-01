@@ -2,8 +2,8 @@ package services
 
 import (
 	"github.com/jinzhu/gorm"
-	"xx_identifier_generate_service/models"
-	"xx_identifier_generate_service/tools"
+	"github.com/tebie6/identifier_generate_service/models"
+	"github.com/tebie6/identifier_generate_service/tools"
 )
 
 type RegisterService struct{}

@@ -1,10 +1,11 @@
-module xx_identifier_generate_service
+module github.com/tebie6/identifier_generate_service
 
 go 1.17
 
 require (
 	github.com/gin-gonic/gin v1.9.0
 	github.com/gomodule/redigo v1.8.9
+	github.com/jinzhu/gorm v1.9.16
 	github.com/tebie6/snowflake v0.0.0-20230228032808-f76f861a04ac
 	gopkg.in/ini.v1 v1.67.0
 )
@@ -18,7 +19,6 @@ require (
 	github.com/go-playground/validator/v10 v10.11.2 // indirect
 	github.com/go-sql-driver/mysql v1.5.0 // indirect
 	github.com/goccy/go-json v0.10.0 // indirect
-	github.com/jinzhu/gorm v1.9.16 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/cpuid/v2 v2.0.9 // indirect

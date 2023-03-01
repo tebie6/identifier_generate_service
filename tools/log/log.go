@@ -9,11 +9,11 @@ package log
 
 import (
 	"fmt"
+	"github.com/tebie6/identifier_generate_service/tools"
+	"github.com/tebie6/identifier_generate_service/tools/logger"
 	"runtime"
 	"strings"
 	"time"
-	"xx_identifier_generate_service/tools"
-	"xx_identifier_generate_service/tools/logger"
 )
 
 const (

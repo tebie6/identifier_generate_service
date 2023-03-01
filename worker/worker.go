@@ -3,10 +3,10 @@ package worker
 import (
 	"errors"
 	"fmt"
+	"github.com/tebie6/identifier_generate_service/services"
+	"github.com/tebie6/identifier_generate_service/tools"
 	"github.com/tebie6/snowflake"
 	"time"
-	"xx_identifier_generate_service/services"
-	"xx_identifier_generate_service/tools"
 )
 
 var (

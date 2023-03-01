@@ -12,8 +12,8 @@ import (
 	"github.com/gomodule/redigo/redis"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"github.com/tebie6/identifier_generate_service/conf"
 	"time"
-	"xx_identifier_generate_service/conf"
 )
 
 var (

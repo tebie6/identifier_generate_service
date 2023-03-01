@@ -2,9 +2,9 @@ package rpc
 
 import (
 	"github.com/gin-gonic/gin"
-	"xx_identifier_generate_service/tools/log"
-	"xx_identifier_generate_service/tools/rpchelper"
-	"xx_identifier_generate_service/worker"
+	"github.com/tebie6/identifier_generate_service/tools/log"
+	"github.com/tebie6/identifier_generate_service/tools/rpchelper"
+	"github.com/tebie6/identifier_generate_service/worker"
 )
 
 func GetId(c *gin.Context) {

@@ -3,9 +3,9 @@ package rpc
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
+	"github.com/tebie6/identifier_generate_service/conf"
+	"github.com/tebie6/identifier_generate_service/tools/log"
 	"net/http"
-	"xx_identifier_generate_service/conf"
-	"xx_identifier_generate_service/tools/log"
 )
 
 const (
