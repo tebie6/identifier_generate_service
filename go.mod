@@ -6,7 +6,7 @@ require (
 	github.com/gin-gonic/gin v1.9.0
 	github.com/gomodule/redigo v1.8.9
 	github.com/jinzhu/gorm v1.9.16
-	github.com/tebie6/snowflake v0.0.0-20230228032808-f76f861a04ac
+	github.com/tebie6/snowflake v0.0.0-20230412083629-63e83e08d606
 	gopkg.in/ini.v1 v1.67.0
 )
 
